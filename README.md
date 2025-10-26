@@ -38,11 +38,35 @@ Install Dependencies:
 
 bashpip install -r requirements.txt
 
-📋 CSV File Format
-Column         Alternative          Names          Description
-titleTitleVideo title
-categoryCategory, channel_title, channelTitleContent category
-viewsViews, view_count, viewCountNumber of views
-likesLikes, like_count, likeCountNumber of likes
-commentsComments, comment_count, commentCountNumber of comments
-durationDuration, video_length, lengthVideo duration
+📊 Example Output
+Console Output
+============================================================
+📊 YOUTUBE CHANNEL ANALYTICS SUMMARY
+============================================================
+
+📹 Total Videos: 50
+👁️  Total Views: 56,280,000
+👍 Total Likes: 2,103,000
+💬 Total Comments: 159,500
+📈 Avg Engagement Rate: 4.02%
+
+🏷️  Categories: 9
+⏱️  Avg Video Duration: 17.3 minutes
+============================================================
+
+============================================================
+💡 KEY INSIGHTS
+============================================================
+
+🏆 Top Performing Category:
+   Entertainment: 2,221,429 avg views
+
+📈 Highest Engagement Rate:
+   Music: 4.89%
+
+⏱️  Optimal Video Length:
+   Short (0-5 min): 1,950,000 avg views
+
+📊 Best Engagement by Length:
+   Short (0-5 min): 4.52%
+============================================================
