@@ -33,15 +33,16 @@ Make sure you have Python 3.7+ installed. Then install the required packages:
 bashpip install pandas numpy matplotlib seaborn
 Installation
 
-Clone or Download the repository:
-
-bashgit clone https://github.com/yourusername/youtube-analyzer.git
-cd youtube-analyzer
 
 Install Dependencies:
 
 bashpip install -r requirements.txt
 
 📋 CSV File Format
-Your CSV file should contain the following columns (flexible naming supported):
-ColumnAlternative NamesDescriptiontitleTitleVideo titlecategoryCategory, channel_title, channelTitleContent categoryviewsViews, view_count, viewCountNumber of viewslikesLikes, like_count, likeCountNumber of likescommentsComments, comment_count, commentCountNumber of commentsdurationDuration, video_length, lengthVideo durationsubscribersSubscribers, subscriber_countChannel subscribers (optional)
+Column         Alternative          Names          Description
+titleTitleVideo title
+categoryCategory, channel_title, channelTitleContent category
+viewsViews, view_count, viewCountNumber of views
+likesLikes, like_count, likeCountNumber of likes
+commentsComments, comment_count, commentCountNumber of comments
+durationDuration, video_length, lengthVideo duration
